@@ -9,8 +9,8 @@ exibirTextoNaTela('h1', 'Jogo do número secreto. Hora do Desafio.');
 exibirTextoNaTela('.texto__paragrafo', 'Escolha um número entre 1 e 10');
 
 function verificarChute() {
-    console.log('Chute foi clicado');
-    let chute = document.querySelector('.chute').value;
+    console.log(numeroSecreto);
+    let chute = document.querySelector('input').value;
 }
 
 function gerarNumeroAleatorio() {
